@@ -1,0 +1,24 @@
+.box {
+  height: 80px;
+  text-align: center;
+  border: 1px solid gainsboro;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-bg {
+  background-color: #35524a;
+}
+.box {
+  background-color: #627c85;
+}
+.fizz {
+  background-color: #b3c8d0;
+}
+.buzz {
+  background-color: #a2e8dd;
+}
+.fizz.buzz {
+  background-color: #32de8a;
+}
